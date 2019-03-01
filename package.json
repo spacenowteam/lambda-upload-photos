@@ -1,0 +1,14 @@
+{
+  "name": "lambda-s3-upload-photos",
+  "version": "1.0.0",
+  "description": "This is a node function to upload images to s3 bucket",
+  "main": "index.js",
+  "author": "Lucas Nascimento",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.412.0",
+    "multer": "^1.4.1",
+    "sharp": "^0.21.3"
+  }
+}
